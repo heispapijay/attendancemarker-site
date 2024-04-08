@@ -15,7 +15,7 @@ const AttendanceMarker = () => {
     if (savedData) {
       setStudents(JSON.parse(savedData));
     } else {
-      fetch("students.json")
+      fetch("/students.json")
         .then((response) => response.json())
         .then((data) => {
           setStudents(data);
