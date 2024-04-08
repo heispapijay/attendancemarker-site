@@ -50,6 +50,7 @@ const AttendanceMarker = () => {
     } else if (status === "absent") {
       setAbsentStudents([...absentStudents, selectedStudent]);
     }
+    setSelectedStudent(null);
   };
 
   const handleClearHistory = () => {
@@ -85,7 +86,7 @@ const AttendanceMarker = () => {
           handleMarkAttendance={handleMarkAttendance}
         />
       )}
-      
+
       <StudentList
         students={students}
         handleSelectStudent={handleSelectStudent}
