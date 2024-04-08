@@ -77,7 +77,7 @@ const AttendanceMarker = () => {
   };
 
   return (
-    <div>
+    <div className="wrapper">
       <h1>Attendance Marker</h1>
       <StudentList
         students={students}

@@ -37,6 +37,8 @@ h1 {
 
 button {
   border: none;
+  padding: 8px;
+  border-radius: 4px;
 }
 
 button:hover {
