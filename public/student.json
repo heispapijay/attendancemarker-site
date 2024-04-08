@@ -1,0 +1,22 @@
+[
+  {"matricNo": "C1234567", "fullName": "John Smith", "status": "present"},
+  {"matricNo": "B2345678", "fullName": "Alice Johnson", "status": "present"},
+  {"matricNo": "S3456789", "fullName": "Emma Davis", "status": "present"},
+  {"matricNo": "E4567890", "fullName": "Michael Brown", "status": "present"},
+  {"matricNo": "C9876543", "fullName": "Oliver Wilson", "status": "present"},
+  {"matricNo": "B8765432", "fullName": "Sophia Moore", "status": "present"},
+  {"matricNo": "S7654321", "fullName": "William Taylor", "status": "present"},
+  {"matricNo": "E6543210", "fullName": "James Anderson", "status": "present"},
+  {"matricNo": "C5432109", "fullName": "Ava Thomas", "status": "present"},
+  {"matricNo": "B0987654", "fullName": "Liam Jackson", "status": "present"},
+  {"matricNo": "S9876543", "fullName": "Charlotte White", "status": "present"},
+  {"matricNo": "E8765432", "fullName": "Mia Harris", "status": "present"},
+  {"matricNo": "C7654321", "fullName": "Noah Martin", "status": "present"},
+  {"matricNo": "B6543210", "fullName": "Ella Thompson", "status": "present"},
+  {"matricNo": "S0987654", "fullName": "Jacob Garcia", "status": "present"},
+  {"matricNo": "E9876543", "fullName": "Amelia Martinez", "status": "present"},
+  {"matricNo": "C8765432", "fullName": "Isabella Robinson", "status": "present"},
+  {"matricNo": "B7654321", "fullName": "Alexander Clark", "status": "present"},
+  {"matricNo": "S6543210", "fullName": "Daniel Lewis", "status": "present"}
+  ]
+  

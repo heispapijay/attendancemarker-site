@@ -14,8 +14,8 @@ const AttendanceMarker = () => {
     const savedAbsent = localStorage.getItem("absentStudents");
     if (savedData) {
       setStudents(JSON.parse(savedData));
-    } else {e
-      fetch("./students.json")
+    } else {
+      fetch("students.json")
         .then((response) => response.json())
         .then((data) => {
           setStudents(data);
@@ -79,16 +79,18 @@ const AttendanceMarker = () => {
   return (
     <div className="wrapper">
       <h1>Attendance Marker</h1>
-      <StudentList
-        students={students}
-        handleSelectStudent={handleSelectStudent}
-      />
       {selectedStudent && (
         <Form
           selectedStudent={selectedStudent}
           handleMarkAttendance={handleMarkAttendance}
         />
       )}
+      
+      <StudentList
+        students={students}
+        handleSelectStudent={handleSelectStudent}
+      />
+      
       <AttendanceHistory
         presentStudents={presentStudents}
         absentStudents={absentStudents}

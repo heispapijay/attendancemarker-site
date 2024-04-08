@@ -1,7 +1,0 @@
-[
-    {"matricNo": "C1234567", "fullName": "John Smith", "status": "present"},
-    {"matricNo": "B2345678", "fullName": "Alice Johnson", "status": "present"},
-    {"matricNo": "S3456789", "fullName": "Emma Davis", "status": "present"},
-    {"matricNo": "E4567890", "fullName": "Michael Brown", "status": "present"}
-  ]
-  

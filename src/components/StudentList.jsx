@@ -6,6 +6,9 @@ const StudentList = ({ students, handleSelectStudent }) => {
     const handleSearch = (event) => {
         setSearchTerm(event.target.value);
     };
+    const filteredStudents = students.filter(student => {
+        return student.matricNo.toLowerCase().startsWith(searchTerm.toLowerCase());
+    });
 
     return (
         <div>
@@ -25,7 +28,7 @@ const StudentList = ({ students, handleSelectStudent }) => {
                         </tr>
                     </thead>
                     <tbody>
-                        {students.map((student) => (
+                        {filteredStudents.map((student) => (
                             <tr key={student.matricNo}>
                                 <td>{student.matricNo}</td>
                                 <td>{student.fullName}</td>
